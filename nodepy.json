@@ -1,0 +1,10 @@
+{
+  "name": "craftr-chaiscript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": ["rosensteinniklas@gmail.com"],
+  "main": "BUILD.cr.py",
+  "dependencies": {
+    "craftr": "*"
+  }
+}
