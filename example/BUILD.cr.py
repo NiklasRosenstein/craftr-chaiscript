@@ -1,12 +1,11 @@
 
-namespace = 'chaiscript-example'
-
-import cxx from 'craftr/lang/cxx'
-import 'craftr-chaiscript'
+namespace = 'example'
+import cxx from '@craftr/cxx'
+import '@craftr/chaiscript'
 
 cxx.binary(
   name = 'main',
-  deps = ['//craftr-chaiscript:chaiscript-static'],
+  deps = ['//@craftr/chaiscript:chaiscript-static'],
   srcs = ['main.cpp', 'init.cpp']
 )
 

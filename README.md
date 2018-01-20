@@ -1,4 +1,4 @@
-## craftr-chaiscript
+## @craftr/chaiscript
 
 ### Options
 
@@ -11,7 +11,7 @@
 
 If you want to avoid compiling the ChaiScript standard library into
 every translation unit, you need to use the following includes (below)
-and depend on the `//craftr-chaiscript:chaiscript-static` target.
+and depend on the `//@craftr/chaiscript:chaiscript-static` target.
 
 ```cpp
 #include <chaiscript/chaiscript_basic.hpp>
@@ -22,7 +22,7 @@ and depend on the `//craftr-chaiscript:chaiscript-static` target.
 chaiscript::ChaiScript_Basic chai(create_chaiscript_stdlib(), create_chaiscript_parser());
 ```
 
-Otherwise, you may simply depend on the `//craftr-chaiscript:chaiscript`
+Otherwise, you may simply depend on the `//@craftr/chaiscript:chaiscript`
 target and include the full standard library statically into your translation
 unit.
 
@@ -35,4 +35,4 @@ chaiscript::ChaiScript chai;
 
 ### Compile the ChaiScript CLI
 
-    $ craftr --release --configure --build //craftr-chaiscript:main
+    $ craftr --release --configure --build //@craftr/chaiscript:main

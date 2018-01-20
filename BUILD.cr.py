@@ -1,6 +1,6 @@
 
 import craftr, {fmt, glob, path} from 'craftr'
-import cxx from 'craftr/lang/cxx'
+import cxx from '@craftr/cxx'
 
 source_dir = craftr.options.get('chaiscript.source_dir')
 gitref = craftr.options.get('chaiscript.gitref', 'v6.0.0')
