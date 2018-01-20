@@ -5,6 +5,7 @@
   "authors": ["rosensteinniklas@gmail.com"],
   "main": "BUILD.cr.py",
   "dependencies": {
-    "craftr": "*"
+    "craftr": "*",
+    "@craftr/cxx": "*"
   }
 }
